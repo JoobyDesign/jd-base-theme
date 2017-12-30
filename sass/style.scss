@@ -9,4 +9,13 @@
 @import "base/normalize";
 
 // States
-@import "states/media_queries"
+@import "states/media_queries";
+
+
+html {
+
+  body {
+    min-height: 30rem;
+    background-color: red;
+  }
+}
